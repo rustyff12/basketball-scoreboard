@@ -1,0 +1,31 @@
+
+
+Checklist
+ 
+    
+ability to change team names
+if there is a big gap a message pops up
+depending on team names, color combos change
+
+
+
+
+
+can I turn the following into an if...else statement or a switch statement: 
+
+let homeCurrentScore = document.getElementById("home-score");
+let homeScore = 0;
+function homeScorePlus1() {
+    homeScore += 1;
+    homeCurrentScore.textContent = homeScore;
+}
+
+function homeScorePlus2() {
+    homeScore += 2;
+    homeCurrentScore.textContent = homeScore;
+}
+
+function homeScorePlus3() {
+    homeScore += 3;
+    homeCurrentScore.textContent = homeScore;
+}
