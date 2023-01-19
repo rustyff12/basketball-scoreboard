@@ -34,3 +34,9 @@ function awayScorePlus3() {
     awayCurrentScore.textContent = awayScore;
 }
 
+function resetScore() {
+    homeCurrentScore.textContent = 0;
+    awayCurrentScore.textContent = 0;
+    homeScore = 0;
+    awayScore = 0;
+}
