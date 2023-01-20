@@ -6,6 +6,7 @@ Checklist
 ability to change team names
 if there is a big gap a message pops up
 depending on team names, color combos change
+javascript promt for home and away team?
 
 
 
@@ -29,3 +30,5 @@ function homeScorePlus3() {
     homeScore += 3;
     homeCurrentScore.textContent = homeScore;
 }
+
+Also a switch statement or if..else for the background and team colors 
